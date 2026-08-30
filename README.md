@@ -22,18 +22,18 @@ You can compute the mean and variance of the gray-scale image $I(.)$ as follows:
 
 <!--$\mu$ = $\frac{\sum_{x=1}^{N}\sum_{y=1}^{M}I(x,y)}{N \times M}$
 \sigma^{2} = \frac{\sum_{x=1}^{N}\sum_{y=1}^{M}(I(x,y)-\mu)^2}{N*M}-->
-![mean and variance equations](https://github.com/alimoorreza/CS195-Fall24-Notebook-1/blob/main/etc/whitening_eq1.png)
+![mean and variance equations](https://github.com/alimoorreza/CS181-Fall26-Notebook-1/blob/main/etc/whitening_eq1.png)
 
 ## **Step 2:** 
 Now, you can transform each pixel value separately using the above two computed statistics $\mu$ (mean) and $\sigma$ (standard deviation) as follows:
     <!--I^{'}(x,y) = \frac{I(x,y)-\mu}{\sigma}-->
     
-![whitening transformation](https://github.com/alimoorreza/CS195-Fall24-Notebook-1/blob/main/etc/whitening_eq2.png)
+![whitening transformation](https://github.com/alimoorreza/CS181-Fall26-Notebook-1/blob/main/etc/whitening_eq2.png)
 
 
-Apply this *Whitening Transformation* on the provided input image to see how it affects. The following figures show the effect of applying *Whitening Transformation* on the first-ever photograph -- **Image#1**: [this link](https://github.com/alimoorreza/CS195-Fall24-Notebook-1/blob/main/data/first_photograph.png). The result should something like below:
+Apply this *Whitening Transformation* on the provided input image to see how it affects. The following figures show the effect of applying *Whitening Transformation* on the first-ever photograph -- **Image#1**: [this link](https://github.com/alimoorreza/CS181-Fall26-Notebook-1/blob/main/data/first_photograph.png). The result should something like below:
 
-![Result task#1](https://github.com/alimoorreza/CS195-Fall24-Notebook-1/blob/main/etc/task1_result.png)
+![Result task#1](https://github.com/alimoorreza/CS181-Fall26-Notebook-1/blob/main/etc/task1_result.png)
 
 
 ## :white_check_mark: Grading: 
