@@ -15,9 +15,9 @@ For this notebook, you will need the following two images:
  
 First things first: upload the images to your Google Drive and then mount your Drive to the notebook. I aim to help everyone get familiar with the programming environment and comfortable working with pixel values in images. There will be two tasks: you'll perform various per-pixel transformations on images and observe the results.
 # **Task#1**: Convolution with Gaussian Filters
-You will be smoothing an image using convolution operation with Gaussian filters. Smooth Gaussian filter emphasized the pixel data that is right at the center, it will also incorporate the data that are further out but they can not contribute as heavily as the center pixel. Because the value at the center of the Gaussian kernel has the highest magnitude.
+You will be smoothing an image using convolution operation with Gaussian filters. Smooth Gaussian filter emphasizes the pixel data that is right at the center, it also incorporates the data that are further out but they can not contribute as heavily as the center pixel. Because the value at the center of the Gaussian kernel has the highest magnitude.
 ## **Subtask#1: Make the Gaussian Kernels**
-You need to modify the Gaussian filter parameters and observe how the changes affect the kernel values at different locations
+You need to modify the Gaussian filter parameters and observe how the changes affect the kernel values at different locations.
 
 ## **Subtasks#2-#3: Apply the Gaussian Kernels on the Image using Convolution Operation**
 Then you need to apply the Gaussian filters you created in subtask#1 to the Da Vinci **Image#1**: [this "Da Vinci" image](https://github.com/alimoorreza/CS181-Fall26-Notebook-1/blob/main/images/da_vinci_lowres.png) using a convolution operation, and observe the effects.
