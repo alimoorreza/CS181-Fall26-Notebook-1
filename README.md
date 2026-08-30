@@ -14,6 +14,15 @@ For this notebook, you will need the following two images:
 
  
 First things first: upload the images to your Google Drive and then mount your Drive to the notebook. I aim to help everyone get familiar with the programming environment and comfortable working with pixel values in images. There will be two tasks: you'll perform various per-pixel transformations on images and observe the results.
+# **Task#1**: Convolution with Gaussian Filters
+You will be smoothing an image using convolution operation with Gaussian filters. Smooth Gaussian filter emphasized the pixel data that is right at the center, it will also incorporate the data that are further out but they can not contribute as heavily as the center pixel. Because the value at the center of the Gaussian kernel has the highest magnitude.
+## **Subtask#1: Make the Gaussian Kernels**
+You need to modify the Gaussian filter parameters and observe how the changes affect the kernel values at different locations
+
+## **Subtasks#2-#3: Apply the Gaussian Kernels on the Image using Convolution Operation**
+Then you need to apply the Gaussian filters you created in subtask#1 to the Da Vinci **Image#1**: [this "Da Vinci" image](https://github.com/alimoorreza/CS181-Fall26-Notebook-1/blob/main/images/da_vinci_lowres.png) using a convolution operation, and observe the effects.
+
+
 # **Task#2**: Whitening Transformation
 You will be adjusting the contrast of the image. Your goal is to transform the image so that the resulting image has a zero mean and unit variance. Denote the image as $I(.)$ which is a 2D array of pixel values. Its width and height are $N$ and $M$ pixels respectively. Also $I(x,y)$ denotes the pixel value at 2D location $(x,y)$.
 
@@ -31,7 +40,7 @@ Now, you can transform each pixel value separately using the above two computed 
 ![whitening transformation](https://github.com/alimoorreza/CS181-Fall26-Notebook-1/blob/main/etc/whitening_eq2.png)
 
 
-Apply this *Whitening Transformation* on the provided input image to see how it affects. The following figures show the effect of applying *Whitening Transformation* on the first-ever photograph -- **Image#1**: [this link](https://github.com/alimoorreza/CS181-Fall26-Notebook-1/blob/main/images/first_photograph.png). The result should something like below:
+Apply this *Whitening Transformation* on the provided input image to see how it affects. The following figures show the effect of applying *Whitening Transformation* on the first-ever photograph -- **Image#2**: [this link](https://github.com/alimoorreza/CS181-Fall26-Notebook-1/blob/main/images/first_photograph.png). The result should something like below:
 
 ![Result task#1](https://github.com/alimoorreza/CS181-Fall26-Notebook-1/blob/main/etc/task1_result.png)
 
