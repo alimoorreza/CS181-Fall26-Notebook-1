@@ -9,8 +9,8 @@ I've provided some starter code for you. Before you go any further, click on the
 
 ## The Images
 For this notebook, you will need the following two images:
-- **Image#1**: [this link](https://github.com/alimoorreza/CS181-Fall26-Notebook-1/blob/main/data/da_vinci_lowres.png). *Use this for Task#1*
-- **Image#2**: [this link](https://github.com/alimoorreza/CS181-Fall26-Notebook-1/blob/main/data/first_photograph.png). *Use this for Task#2*
+- **Image#1**: [this link](https://github.com/alimoorreza/CS181-Fall26-Notebook-1/blob/main/images/da_vinci_lowres.png). *Use this for Task#1*
+- **Image#2**: [this link](https://github.com/alimoorreza/CS181-Fall26-Notebook-1/blob/main/images/first_photograph.png). *Use this for Task#2*
 
  
 First things first: upload the images to your Google Drive and then mount your Drive to the notebook. I aim to help everyone get familiar with the programming environment and comfortable working with pixel values in images. There will be two tasks: you'll perform various per-pixel transformations on images and observe the results.
@@ -31,7 +31,7 @@ Now, you can transform each pixel value separately using the above two computed 
 ![whitening transformation](https://github.com/alimoorreza/CS181-Fall26-Notebook-1/blob/main/etc/whitening_eq2.png)
 
 
-Apply this *Whitening Transformation* on the provided input image to see how it affects. The following figures show the effect of applying *Whitening Transformation* on the first-ever photograph -- **Image#1**: [this link](https://github.com/alimoorreza/CS181-Fall26-Notebook-1/blob/main/data/first_photograph.png). The result should something like below:
+Apply this *Whitening Transformation* on the provided input image to see how it affects. The following figures show the effect of applying *Whitening Transformation* on the first-ever photograph -- **Image#1**: [this link](https://github.com/alimoorreza/CS181-Fall26-Notebook-1/blob/main/images/first_photograph.png). The result should something like below:
 
 ![Result task#1](https://github.com/alimoorreza/CS181-Fall26-Notebook-1/blob/main/etc/task1_result.png)
 
