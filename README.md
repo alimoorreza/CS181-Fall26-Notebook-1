@@ -1,5 +1,5 @@
 # CS181-Fall26-Notebook #1
-## Image Filtering: cross-correlation, convolution, and whitening transformation
+## Image Filtering: convolution with Gaussian filter, and whitening transformation
 
 <b>Due</b>: Monday, September 7th, 2026
 
