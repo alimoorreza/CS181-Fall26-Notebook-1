@@ -56,5 +56,5 @@ I will update the following rubric with your grade after you have completed the 
 | Exercise #  | Points Awarded (out of 5)  | Notes |
 | --------- | ------------------- | --------- |
 | 1:  convolution with Gaussian filter                      |    -/2.5    |            |
-| 3:  whitening transformation         |    -/2.5    |            |
+| 2:  whitening transformation         |    -/2.5    |            |
 | <b>Total                             |    -/5      |     </b>   |
