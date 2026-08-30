@@ -40,7 +40,7 @@ Apply this *Whitening Transformation* on the provided input image to see how it 
 I will update the following rubric with your grade after you have completed the assignment.
 
 ### Rubric:
-> *This assignment is worth 5 points. I will gladly add an extra 0.5 points if you can find another low-intensity image and enhance its brightness using your histogram equalization method!*
+> *This assignment is worth 5 points.*
 
 >
 
