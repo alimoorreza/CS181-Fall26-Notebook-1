@@ -5,7 +5,7 @@
 
 ## How this is going to work: 
 
-I've provided some starter code for you. Before you go any further, click on the `notebook1_convolving_gaussian_filter_starter.ipynb` and `notebook1_whiteing_starter.ipynb` links in the repository, and then, at the top of the notebook, you will see a button that says `Open in Colab`. Click on this and it will open the starter code in Google Colaboratory.
+I've provided some starter code for you. Before you go any further, click on the `assignment_1_convolving_gaussian_filter_starter.ipynb` and `assignment_1_whiteing_starter.ipynb` links in the repository, and then, at the top of the notebook, you will see a button that says `Open in Colab`. Click on this and it will open the starter code in Google Colaboratory.
 
 ## The Images
 For this notebook, you will need the following two images:
